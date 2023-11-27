@@ -1,0 +1,11 @@
+.gridContainer {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(10, 3rem);
+  height: 100%;
+
+  @media (width <= 500px) {
+    gap: 0.25rem;
+    grid-template-columns: repeat(10, 2rem);
+  }
+}

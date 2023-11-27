@@ -1,0 +1,22 @@
+.gameControlBtn {
+  background-color: #9ade7b;
+  border-radius: 0.25rem;
+  border: 1px solid #9ade7b;
+  cursor: pointer;
+  flex: 1;
+  font-size: 1.25rem;
+  outline: none;
+  transition: all 0.25s ease;
+
+  &:hover {
+    color: #386aff;
+    border: 2px solid #85bb6c;
+  }
+
+  &:disabled {
+    background-color: #d8d9da;
+    border: 1px solid #61677a;
+    color: #272829;
+    cursor: default;
+  }
+}

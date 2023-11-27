@@ -1,0 +1,41 @@
+.controls {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  max-width: 34.5rem;
+  width: 100%;
+}
+
+.tickControl {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.tickControlInput {
+  -moz-appearance: textfield;
+  border-radius: 0.25rem;
+  border: 2px solid #f3b664;
+  margin-top: 0.5rem;
+  outline: none;
+  padding: 0.5rem;
+  transition: border-color 0.25s ease;
+
+  &:focus {
+    border-color: #83a2ff;
+  }
+
+  &:hover {
+    border-color: #83a2ff;
+  }
+}
+
+.tickControlLabel {
+  font-size: 1.25rem;
+}
+
+.tickControlInput::-webkit-outer-spin-button,
+.tickControlInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

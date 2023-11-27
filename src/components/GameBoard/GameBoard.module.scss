@@ -1,0 +1,33 @@
+.gameBoard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.gridItem {
+  background-color: #83a2ff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  transition: background-color 0.25s;
+  width: 2rem;
+
+  @media (width <= 500px) {
+    padding: 0;
+  }
+}
+
+.yellowCell {
+  background-color: #f3b664;
+}
+
+.greenCell {
+  background-color: #9ade7b;
+}
+
+.redCell {
+  background-color: #b31312;
+}
